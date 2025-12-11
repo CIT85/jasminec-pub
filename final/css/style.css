@@ -12,7 +12,7 @@ body {
     color:#FBFFB9;
     background-color: #754F44;
     line-height: 24px;
-    margin: 50px;
+    margin: 20px;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 }
 
 .navbar {
-    background-color: #fdd692;
+    background-color: #FDD692;
     margin: 0.5rem;
     padding: 6px;
     
@@ -562,7 +562,6 @@ figcaption {
 .mascot {
     display: grid;
     grid-template-columns: 470px;
-    /* grid-template-columns: 400px 400px; */
     grid-template-rows: 300px;
     justify-content: start;
     justify-items: end;
@@ -608,6 +607,28 @@ figcaption {
     border: 3px solid #000;
     border-radius: 20%;
 
+}
+
+.hero-img {
+    width: auto;
+    height: 500px;
+    background-image: url(/final/img/hero_img.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero-p {
+    display: flex;
+    font-size: x-large;
+    font-weight: 600;
+    width: auto;
+    height: 160px;
+    color:#FBFFB9;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    
 }
 
 /* ==== Color palette ==== */
