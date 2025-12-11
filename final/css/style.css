@@ -359,9 +359,9 @@ section {
     border: 2px dashed #EC7357;
 
     grid-template-columns: 100%;
-    grid-template-rows: 500px;
+    grid-template-rows: 200px 200px 200px;
     grid-column: 1 / 1;
-    grid-row: 1 / 1;
+    grid-row: 2 / 3;
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -439,20 +439,32 @@ summary::after {
     cursor: pointer;
 }
 /* ==== Forms ==== */
-fieldset {
+.grid-fieldset {
+    display: grid;
     background-image: url(/final/img/patterns_wooden_brown_floral_resize.jpg);
     border: 1px solid #000;
     border-radius: 5%;
+    /* grid-template-columns: 100%;
+    grid-template-rows: 30px 200px 200px;
+    grid-row: 2 / 2;
+    justify-content: start;
+    align-items: center; */
 }
 
-form {
+.grid-form {
     background-color: #FDD692;
     border: 2px dashed #EC7357;
     border-radius: 5%;
+    /* grid-template-columns: 100%;
+    grid-template-rows: 30px 200px 200px;
+    grid-row: 3 / 3;
+    justify-content: start;
+    align-items: center; */
 }
 
 textarea {
     height: 150px;
+    
 }
 
 .intro-p {
