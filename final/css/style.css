@@ -614,7 +614,7 @@ figcaption {
 .hero-img {
     width: auto;
     height: 500px;
-    background-image: url(../img/hero_myth_img.png);
+    background-image: url(img/hero_myth_img.png);
     background-size: cover;
     background-position: center;
     
